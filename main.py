@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""One-Star Review of Something Essential — v1.
+"""One-Star Review of Something Essential — v2.
 
 Writes a single deadpan one-star review of an everyday essential to
 /output/entry.txt: one line, at most 160 characters, UTF-8, no trailing
@@ -9,7 +9,7 @@ so every run writes the same bytes.
 
 import os
 
-REVIEW = "The sun: rises without fail every morning, including weekends, holidays, and days I had plans to sleep in. One star."
+REVIEW = "Sleep: eight hours every night, and I still wake up tired. The math does not add up. One star."
 
 
 def main() -> None:
